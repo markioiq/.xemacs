@@ -22,13 +22,13 @@
 
 ;; ‰pš‚ÍCourier New 10pAŠ¿š‚ÍMSƒSƒVƒbƒN10p
 (set-face-font 'default
-               '("Courier New:Regular:10::Western"
-                 "‚l‚r ƒSƒVƒbƒN:Regular:10::Japanese")
+               '("Consolas:Regular:9::Western"
+                 "‚l‚r ƒSƒVƒbƒN:Regular:9::Japanese")
                 nil 'mswindows)
 ;;‰pš‚àŠ¿š‚àMSƒSƒVƒbƒN 10p
-(set-face-font 'default
-               "‚l‚r ƒSƒVƒbƒN:Regular:10::"
-               nil 'mswindows)
+;(set-face-font 'default
+;               "‚l‚r ƒSƒVƒbƒN:Regular:10::"
+;               nil 'mswindows)
 
 (add-to-list 'load-path "C:/Users/suc302/Documents/software/XEmacs/site-packages")
 (require 'un-define)
